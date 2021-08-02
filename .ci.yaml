@@ -1265,6 +1265,7 @@ targets:
 
   - name: Linux_android flutter_gallery__transition_perf_hybrid
     builder: Linux_android flutter_gallery__transition_perf_hybrid
+    bringup: true # Flaky https://github.com/flutter/flutter/issues/87494
     presubmit: false
     properties:
       tags: >
